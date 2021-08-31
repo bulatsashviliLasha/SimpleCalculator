@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myCalculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="c-grid">
+      <div class="c-grid__output">
+        <div class="prev-input"></div>
+        <div class="current-input"></div>
+      </div>
+      <div class="c-grid__body">
+        <button
+          class="c-grid__btn c-grid__btn--two c-grid__btn--dark"
+          data-all-clear
+        >
+          AC
+        </button>
+        <button
+          class="c-grid__btn c-grid__btn--dark"
+          style="grid-column: span 2"
+          data-delete
+        >
+          DEL
+        </button>
+        <button class="c-grid__btn c-grid__btn--dark" data-neg-pos>+/-</button>
+        <button
+          class="c-grid__btn c-grid__btn--dark"
+          data-operation
+          data-value="sqrt"
+        >
+          √
+        </button>
+        <button
+          class="c-grid__btn c-grid__btn--dark"
+          data-operation
+          data-value="^"
+        >
+          ^
+        </button>
+        <button
+          class="c-grid__btn c-grid__btn--dark"
+          data-operation
+          data-value="/"
+        >
+          ÷
+        </button>
+        <button
+          class="c-grid__btn c-grid__btn--gray"
+          data-number
+          data-value="7"
+        >
+          7
+        </button>
+        <button
+          class="c-grid__btn c-grid__btn--gray"
+          data-number
+          data-value="8"
+        >
+          8
+        </button>
+        <button
+          class="c-grid__btn c-grid__btn--gray"
+          data-number
+          data-value="9"
+        >
+          9
+        </button>
+        <button
+          class="c-grid__btn c-grid__btn--dark"
+          data-operation
+          data-value="*"
+        >
+          *
+        </button>
+        <button
+          class="c-grid__btn c-grid__btn--gray"
+          data-number
+          data-value="4"
+        >
+          4
+        </button>
+        <button
+          class="c-grid__btn c-grid__btn--gray"
+          data-number
+          data-value="5"
+        >
+          5
+        </button>
+        <button
+          class="c-grid__btn c-grid__btn--gray"
+          data-number
+          data-value="6"
+        >
+          6
+        </button>
+        <button
+          class="c-grid__btn c-grid__btn--dark"
+          data-operation
+          data-value="-"
+        >
+          -
+        </button>
+        <button
+          class="c-grid__btn c-grid__btn--gray"
+          data-number
+          data-value="1"
+        >
+          1
+        </button>
+        <button
+          class="c-grid__btn c-grid__btn--gray"
+          data-number
+          data-value="2"
+        >
+          2
+        </button>
+        <button
+          class="c-grid__btn c-grid__btn--gray"
+          data-number
+          data-value="3"
+        >
+          3
+        </button>
+        <button
+          class="c-grid__btn c-grid__btn--dark"
+          data-operation
+          data-value="+"
+        >
+          +
+        </button>
+        <button
+          class="c-grid__btn c-grid__btn--two c-grid__btn--gray"
+          data-number
+          data-value="0"
+        >
+          0
+        </button>
+        <button class="c-grid__btn c-grid__btn--gray" data-decimal>.</button>
+        <button class="c-grid__btn c-grid__btn--orange" data-equals>=</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
