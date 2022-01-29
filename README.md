@@ -1,1 +1,1 @@
-# [Calculator](https://lashareichert.github.io/SimpleCalculator/)
+# [Calculator](https://bulatsashvililasha.github.io/SimpleCalculator/)
